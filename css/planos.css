@@ -1,0 +1,868 @@
+	/* Planos Geral */
+
+		#planos
+		{
+			background: #EBEBEA;
+		}
+
+		#planos h3
+		{
+			color: #A5AC37;
+		}
+
+		.planos-box
+		{
+			padding: 5em 0;
+		}
+
+		.plano-npd
+		{
+			padding: 0;
+		}
+
+		.plano-destaque
+		{
+			margin: -3.2em 0 0;
+		}
+
+		.plano
+		{
+			margin-bottom: 2em;
+			float: left;
+		}
+
+		.plano-destaque .plano
+		{
+			padding-bottom: 1em;
+		}
+
+		.plano h3
+		{
+			font-size: 2.4em;
+			color: #A5AC37;
+			padding: .5em 0 0;
+			margin: 0;
+			line-height: 1em;
+		}
+
+		.plano h2
+		{
+			font-size: 2.6em;
+			line-height: 1.2em;
+			color: #0094A3;
+			padding: 0;
+			margin: 0;
+		}
+
+		.plano p
+		{
+			font-size: 1.4em;
+			line-height: 1em;
+			color: #717171;
+		}
+
+	/* Box White */
+
+		.box-white
+		{
+			background: #fff;
+			border-top: 6px solid #058189;
+		}
+
+		.box-destaque
+		{
+			background: #0195A4;
+			border-top: 6px solid #A5AC37;			
+		}
+
+		.box-white p
+		{
+			color: #B2B1B1;
+		}
+
+	/* Header Plano */
+
+		.plano-custo
+		{
+			margin: 1.5em 1.8em 0;
+			text-align: center;
+			position: relative;
+		}
+
+		.plano-info-lateral .plano-custo
+		{
+			height: 252px;
+		}
+
+		.header-info-topo,
+		.info-plan-txt		
+		{
+			border-bottom: 1px solid #EEEEEE;
+		}
+
+		.header-info-topo .badget
+		{
+			font-size: .95em;
+			line-height: 1.4em;			
+			position: relative;
+			display: inline-block;
+			margin: 0 0 1.5em 0;
+		}
+
+		.plano-destaque .header-info-topo,
+		.plano-destaque .info-plan-txt
+		{
+			border-bottom: 1px solid #00b5c0;
+		}
+
+		.header-info-topo p
+		{
+			color: #AAA;
+			font-size: 1.2em;
+			margin: .5em 0 .8em;
+		}
+
+		.plano-custo span
+		{
+			color: #8C8C8C;
+			font-size: 1.3em;
+			display: inline-block;
+		}
+
+		.plano-custo span.valor
+		{
+			font-size: 2.1em;
+			line-height: 1em;
+			font-family: 'neo_sansbold', "Trebuchet MS", Helvetica, sans-serif;
+			padding: 0 .5em 0 .2em;
+			position: relative;
+		}
+
+		.plano-custo span.valor i
+		{
+			font-family:'neo_sansbold';
+			font-size: .4em;
+			line-height: 1em;
+			font-style: normal;
+			position: absolute;
+			top: 0;
+			margin-left: -5px;
+		}
+
+		.plano-custo span.x
+		{
+			font-size: 1.2em;
+		}
+
+		.info-plan-txt p
+		{
+			padding: .7em 0 0;
+			font-family:'neo_sansitalic';
+			text-align: left;
+			font-size: 1.35em;
+			line-height: 1.2em;			
+		}
+
+		.box-white .info-plan-txt p
+		{
+			color: #B2B1B1;
+		}
+
+	/* Plano Destaque Header */	
+
+		.plano-destaque-midias .plano-custo
+		{
+			background: #BFC64F;
+		}
+
+		.plano-destaque .plano-custo .mais-recomendado
+		{
+			background: url("../imgs/mais-recomendado.png") no-repeat 0 0;
+			width: 82px;
+			height: 82px;
+			position: absolute;
+			right: -10px;
+			top: -11px;
+		}
+
+		.plano-destaque .plano-custo h2,
+		.plano-destaque .plano-custo p,
+		.plano-destaque .plano-custo span,
+		.plano-destaque .plano-custo span.valor,
+		.plano-destaque-midias .plano-custo h2,
+		.plano-destaque-midias .plano-custo p,
+		.plano-destaque-midias .plano-custo span,
+		.plano-destaque-midias .plano-custo span.valor
+		{
+			color: #fff;
+		}
+
+	/* Listagem Planos Geral */
+
+		.plano ul
+		{
+			padding: 0;
+			margin: 0 1.8em;
+			list-style: none;
+			text-align: center;
+		}	
+
+		.plano .info-lateral ul
+		{
+			text-align: left;
+			margin: 0;
+		}		
+
+		.plano ul li
+		{
+			padding: 1.3em 1em;
+			position: relative;
+			float: left;
+			width: 100%;
+		}
+
+		.planos-info li
+		{
+			border-bottom: #EDEDED 1px solid;
+		}
+
+		.planos-info li:last-child
+		{
+			border: 0 none;
+		}
+
+		.plano-destaque .planos-info li
+		{
+			border-color: #00b5c0;
+		}
+
+		.plano-destaque-midias .planos-info li
+		{
+			border-color: #d4d97d;
+		}
+
+		.planos-info li .info-lft
+		{
+			float: left;
+			width: 60%;
+		}
+
+		.plano-destaque-midias .planos-info li .info-lft
+		{
+			width: 10%;
+		}		
+
+		.planos-info li .info-rgt
+		{
+			float: right;
+			width: 40%;
+			text-align: center;
+		}	
+
+		.plano-destaque-midias .planos-info li .info-rgt
+		{
+			width: 90%;
+			text-align: left;
+		}							
+
+		.planos-info p
+		{
+			margin: 0;
+		}	
+
+		.plano-destaque .planos-info p
+		{
+			color: #fff;
+		}	
+
+		.plano-destaque-midias .planos-info p
+		{
+			color: #A5AC37;
+		}
+
+		.color-destaque
+		{
+			color: #A5AC37;
+		}
+
+		.color-destaque-blue
+		{
+			color: #128590;
+		}
+
+		.plano-destaque .color-destaque,
+		.plano-destaque .color-destaque-blue
+		{
+			color: #fff;
+		}
+
+		.icon-font
+		{
+			font-size: .9em;
+			line-height: 1em;
+			height: 100%;
+		}
+
+		.plano-destaque-midias .icon-font
+		{
+			color: #A5AC37;
+		}
+
+	/* Listagem Info Planos */
+
+		.info-lateral li
+		{
+			border-bottom: 1px solid #DFDEDC;
+		}
+
+		.info-lateral li img
+		{
+			max-width: 100%;
+		}
+
+		.tip
+		{
+			display: inline-block;
+			background: #34BFC9;
+			width: 15px;
+			height: 15px;
+			cursor: pointer;
+			position: relative;
+
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+
+			-webkit-transition: all .3s ease-in-out;
+		    -moz-transition: all .3s ease-in-out;
+		    -o-transition: all .3s ease-in-out;
+		    transition: all .3s ease-in-out;						
+		}
+
+		.tip:hover
+		{
+			background: #111;
+		}
+
+		.tip i
+		{
+			color: #fff;
+			font-size: 10px;
+			line-height: 1.5em;
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+
+			position: absolute;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		.badget
+		{
+			background: #A5AC37;
+			color: #fff;
+			font-family:'neo_sansmedium';
+			font-size: .65em;
+			line-height: 1.1em;
+			text-transform: uppercase;
+			padding: .2em .4em;
+
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;			
+		}
+
+		.tip,
+		.badget
+		{
+			position: absolute;
+			top: 5px;
+			margin-left: 3px;
+		}
+
+	/* Botoes */
+
+		.info-plan-txt a
+		{
+			margin: 1em 0;
+		}	
+
+		.btn-saiba-mais-planos
+		{
+			background: #8B8B8A;
+			color: #fff;	
+			font-family: 'neo_sansregular', Arial, sans-serif;
+			font-size: 1.3em;
+			padding: .7em 1em .7em 2em;		
+			text-transform: none;
+		}	
+
+		.plano-destaque .btn-saiba-mais-planos
+		{
+			background: #A4AB37;				
+		}
+
+		.btn-saiba-mais-planos .etc
+		{
+			color: #fff;
+			font-size: 1.4em;
+
+			position: absolute;
+			left: 50%;
+			margin-left: -45px;
+			margin-top: -6px;
+
+			-webkit-transition: color .3s ease-in-out;
+			-moz-transition: color .3s ease-in-out;
+			-o-transition: color .3s ease-in-out;
+			transition: color .3s ease-in-out;			
+		}
+
+		.btn-saiba-mais-planos:hover,
+		.btn-saiba-mais-planos:focus
+		{
+			background: #A4AB37;	
+			color: #fff;		
+		}	
+
+		.plano-destaque .btn-saiba-mais-planos:hover,
+		.plano-destaque .btn-saiba-mais-planos:focus
+		{
+			background: #8B8B8A;
+		}			
+
+		.btn-contratar-planos
+		{
+			background: #0395A3;
+			border-bottom: 2px solid #0E6E72;
+			color: #fff;
+			padding: 1.1em 2em;
+		}
+
+		.plano-destaque .btn-contratar-planos
+		{
+			background: #A4AB37;
+			border-bottom: 2px solid #858C21;
+			padding: 1.5em 2em;
+		}
+
+		.btn-contratar-planos:hover,
+		.btn-contratar-planos:focus
+		{
+			background: #A4AB37;
+			border-bottom: 2px solid #858C21;		
+			color: #fff;		
+		}
+
+		.plano-destaque .btn-contratar-planos:hover,
+		.plano-destaque .btn-contratar-planos:focus
+		{
+			background: #8B8B8A;	
+			border-bottom: 2px solid #0E6E72;		
+		}
+
+	/* Planos Extra */
+
+		.plano-extra
+		{
+			float: left;
+			width: 100%;
+			margin-bottom: 2em;
+		}
+
+		.plano-extra span
+		{
+			color: #717171;
+		}
+
+		.plano-extra span.badget
+		{
+			color: #fff;
+		}
+
+		.plano-extra .info-plan-txt p
+		{
+			color: #B2B1B1;
+		}
+
+		.plano-extra .header-info-topo h2
+		{
+			color: #717171;
+			font-size: 2.4em;
+			line-height: .9em;
+		}	
+
+		.plano-extra .header-info-topo p
+		{
+			color: #717171;
+		}	
+
+		.plano-extra .header-info-topo .bd-separacao
+		{
+			border-top: 1px solid #DFDEDC;
+			border-bottom: 1px solid #DFDEDC;
+		}	
+
+		.extra-duplo .header-info-topo .bd-separacao
+		{
+			border: 0 none;
+			border-left: 1px solid #DFDEDC;
+			margin-bottom: .5em;
+		}
+
+		.plano-extra .info-plan-txt
+		{
+			border-bottom: 1px solid #DFDEDC;
+			margin-bottom: 1.5em;
+		}
+
+		.plano-extra .info-plan-txt a
+		{
+			margin-bottom: 0;
+		}	
+
+		.plano-extra .btn-saiba-mais-planos
+		{
+			background: #C5C4C3;
+			color: #717171;
+			font-size: 1.2em;
+			line-height: 1em;
+			padding: .6em 1em;
+			width: 90%;
+			display: block;
+			margin: 0 auto;
+			text-transform: none;	
+
+			-webkit-border-bottom-left-radius: 0;
+			-moz-border-bottom-left-radius: 0;
+			border-bottom-left-radius: 0;
+
+			-webkit-border-bottom-right-radius: 0;
+			-moz-border-bottom-right-radius: 0;
+			border-bottom-right-radius: 0;						
+		}
+
+		.plano-extra .btn-saiba-mais-planos .etc
+		{
+			color: #717171;
+		}
+
+		.plano-extra .btn-saiba-mais-planos:hover,
+		.plano-extra .btn-saiba-mais-planos:focus
+		{
+			background: #8B8B8A;
+			color: #fff;
+		}
+
+		.plano-extra .btn-saiba-mais-planos:hover .etc,
+		.plano-extra .btn-saiba-mais-planos:focus .etc
+		{
+		    color: #fff;
+		}		
+
+		.plano-extra .btn-contratar-planos
+		{
+			margin: 0;
+			padding: 1.2em 0;
+		}
+
+		.extra-green .btn-contratar-planos
+		{
+			background: #A5AC37;
+			border-bottom: 2px solid #858C21;
+		}
+
+		.extra-green .btn-contratar-planos:hover,
+		.extra-green .btn-contratar-planos:focus
+		{
+			background: #0195A4;
+			border-bottom: 2px solid #0E6E72;
+		}
+
+	/*Estrutura Marca e Criacao Website */
+
+		.extra-duplo .header-info-topo
+		{
+			width: 100%;
+			overflow: hidden;
+			position: relative;
+			border-bottom: 1px solid #DFDEDC;
+			margin-bottom: 1em;
+		}
+
+		.extra-duplo h2, .extra-duplo .bd-separacao
+		{
+			width: 50%;
+			float: left;
+		}
+
+		.extra-duplo .plano-custo p
+		{
+			text-align: left;
+			padding-left: .5em;
+		}
+
+		.extra-duplo .plano-custo span.valor
+		{
+			font-size: 2em;
+		}
+
+		.last-plano .header-info-topo h2
+		{
+			line-height: 1em;
+			text-align: left;
+			height: 64px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.last-plano .header-info-topo h2 .mn
+		{
+			font-size: .7em;
+		}
+
+	/* Info Planos */
+
+		.planos-texto-info
+		{
+			padding: 0;
+		}
+
+		.plano-texto-info
+		{
+			background: #DE6464;
+			padding: 0 2em 2em;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.plano-texto-info .header-sessao
+		{
+			text-align: left;
+			position: relative;
+		}	
+
+		.plano-texto-info .header-sessao h3:before
+		{
+			left: 4%;
+			background: #EBEBEA; 
+		}
+
+		#planos .plano-texto-info .header-sessao h3
+		{
+			color: #EBEBEA;
+		}	
+
+		.plano-texto-info h2
+		{
+			color: #EBEBEA;
+			font-size: 2.2em;
+			line-height: 1em;
+			margin: 0;
+		}	
+
+		.conteudo-plano-txt
+		{
+			position: relative;
+			width: 100%;
+			height: 100%;
+
+			z-index: 10;
+		}
+
+		.plano-texto-info h5
+		{
+			color: #e16c6a;
+			font-size: 11em;
+			line-height: 1em;
+			text-transform: lowercase;
+			
+			position: absolute;
+			left: -6px;
+			bottom: -21px;
+			z-index: 0;
+		}
+
+	/* Lista Planos Servicos */
+
+		.lista-servicos
+		{
+			padding: 2em 0 0;
+			margin-bottom: 0;
+			overflow: hidden;
+			list-style: inside none;
+		}
+
+		.lista-servicos li
+		{
+			padding: 1.5em 0;
+			margin-bottom: 1em;
+			border-bottom: 1px solid #EBEBEA;
+			width: 48%;
+			margin: 0 1% 1em;
+			float: left;
+			position: relative;
+		}
+
+		.lista-servicos li p
+		{
+			color: #EBEBEA;
+			font-size: 1.4em;
+			line-height: 1em;
+			margin: 0;
+		}
+
+	/* Lista Mn */
+
+		.lista-mn
+		{
+			float: right;
+			width: 42%;
+			margin-top: -7.6em;
+		}
+
+		.lista-mn li
+		{
+			width: 100%;
+		}		
+
+	/* Images Background */
+
+		.plano-midias
+		{
+			background: url("../imgs/planos-midias-sociais.png") no-repeat 100% 50%;
+		}
+
+		.plano-marca
+		{
+			background: url("../imgs/planos-marcas.png") no-repeat 90% 100%;
+		}
+
+		.plano-website
+		{
+			background: url("../imgs/planos-criacao-website.png") no-repeat 100% 50%;
+		}
+
+	/* Media Queries */
+
+		@media screen and (max-width: 1199px)
+		{	
+
+			/* Planos */
+
+				.plano-texto-info h2
+				{
+				    font-size: 2em;
+				}
+
+				.lista-servicos li p
+				{
+					font-size: 1.3em;
+				}
+
+				.lista-mn
+				{
+				    margin-top: -7em;
+				    width: 51%;
+				}
+
+				.plano-midias,
+				.plano-marca,
+				.plano-website
+				{
+					background: none;
+				}
+
+		}	
+
+		@media screen and (max-width: 991px)
+		{
+
+			.plano .planos-info p
+			{
+				font-size: 1.15em;
+				line-height: 1.2em;
+			}
+
+			.plano .planos-info p strong
+			{
+				font-family: 'neo_sansregular', Verdana, Arial, Helvetica, sans-serif;
+			}			
+
+		}		
+
+		@media screen and (max-width: 767px)
+		{
+
+			/* Planos */
+
+			.plano
+			{
+				margin-bottom: 8em;
+			}
+
+			.planos-box
+			{
+				padding: 0;
+			}
+
+			.plano-info-lateral .plano-custo
+			{
+				height: 0;
+			}
+
+			.plano-extra
+			{
+				margin-bottom: 4em;
+			}
+
+			.lista-servicos li p
+			{
+				font-size: 1.2em;
+			}
+
+		}	
+
+		@media screen and (max-width: 479px)
+		{
+
+			/* Planos */
+
+			.lista-servicos li p
+			{
+				font-size: 1.2em;
+			}
+
+			.lista-mn,
+			.lista-servicos li
+			{
+				width: 100%;
+				margin-top: 0;
+			}
+
+			.plano-texto-info h5
+			{
+				font-size: 8em;
+				bottom: -14px;
+			}
+
+			.plano-texto-info h2
+			{
+			    font-size: 1.6em;
+			}			
+			
+		}	
+
+		@media screen and (max-width: 319px)
+		{
+
+			/* Planos */
+
+			.plano-texto-info h5
+			{
+				font-size: 3.6em;
+			}		
+			
+		}							

@@ -1,0 +1,123 @@
+#tabela-precos-fixed
+{
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: -104px;
+	width: 100%;
+	z-index: 50;
+	/*display: none;*/
+
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;*/
+}
+
+#tabela-precos-fixed .container
+{
+	padding: 0;
+}
+
+#tabela-precos-fixed img
+{
+	width: 130px;
+	margin: 3em auto;
+}
+
+#tabela-precos-fixed .plano
+{
+	background: #028089;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	padding: 1em 0;
+	margin: 0;
+}
+
+#tabela-precos-fixed .green
+{
+	background: #A4AB37;
+}
+
+#tabela-precos-fixed .plano h2
+{
+	color: #fff;
+	font-size: 1.8em;
+	position: absolute;
+	top: 2.2em;
+	left: 0;
+
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);	
+}
+
+#tabela-precos-fixed .header-info-topo
+{
+	border: 0 none;
+}
+
+#tabela-precos-fixed .header-info-topo p
+{
+	color: #EAEAEA;
+}
+
+#tabela-precos-fixed .plano span
+{
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+#tabela-precos-fixed .plano span.valor
+{
+	font-size: 2.1em;
+	line-height: 1em;
+	font-family: 'neo_sansbold', "Trebuchet MS", Helvetica, sans-serif;
+	padding: 0 .5em 0 .2em;
+	position: relative;
+}
+
+#tabela-precos-fixed .plano span.valor i
+{
+    font-family: 'neo_sansbold';
+    font-size: .4em;
+    line-height: 1em;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    margin-left: -5px;
+}
+
+#tabela-precos-fixed .plano span.x
+{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 991px)
+{
+
+	#tabela-precos-fixed .plano h2
+	{
+	    font-size: 1.5em;
+	    top: 2.2em;
+	    left: -16px;
+	}			
+
+	#tabela-precos-fixed .basico-plano h2
+	{
+		left: -5px;
+	}
+
+}
+
+@media screen and (max-width: 767px)
+{
+
+	#tabela-precos-fixed 
+	{
+	    display: none;
+	}			
+
+}	

@@ -1,0 +1,127 @@
+#contrato
+{
+	background: #EAEAEA;
+}
+
+#contrato .row
+{
+	margin-bottom: 2em;
+}
+
+#contrato h2
+{
+	color: #707171;
+	font-size: 2.2em;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+#contrato .header-sessao
+{
+	text-align: left;
+	padding-top: 3.5em;
+}
+
+#contrato .header-sessao h3
+{
+	color: #A4AB37;
+}
+
+#contrato .header-sessao h3::before
+{
+    left: 0;
+    margin-left: 0;
+}
+
+#contrato h4
+{
+	color: #707171;
+	font-size: 2em;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+#contrato p,
+#contrato ul li,
+#contrato ol li
+{
+	color: #8B8B8A;
+}
+
+#contrato li ol,
+#contrato li ul
+{
+	margin: 2em 0;
+	padding-left: 1em;
+}
+
+#contrato ul li,
+#contrato ol li
+{
+	margin-bottom: 1em;
+}
+
+#contrato ul li p,
+#contrato ol li p
+{
+	margin: 0;
+}
+
+#contrato ul li
+{
+	list-style: disc outside;
+}
+
+#contrato ul,
+#contrato ol
+{
+	list-style: none;
+	padding-left: 0;
+}
+
+#contrato ul.no-style,
+#contrato ol.no-style,
+#contrato ul.no-style li,
+#contrato ol.no-style li
+{
+	list-style: none;
+}
+
+#contrato .clausulas .header-sessao 
+{
+	padding: 3em 0 2.2em;
+}
+
+.clausulas
+{
+	padding: 0;
+}
+
+.clausulas img
+{
+	margin: 5em auto 0;
+	max-width: 100%;
+}
+
+#contrato h5
+{
+	color: #8B8B8A;
+	margin: 0;
+	padding: 0;
+}
+
+.box-btn
+{
+	text-align: center;
+	padding: 3em 0 5em;
+}
+
+.btn-voltar
+{
+    border-bottom: 2px solid #0E6E72;
+	background: #0395A3;
+	color: #fff;
+	padding: .9em 5em;    
+	display: inline-block;
+	margin: 0 auto;
+}

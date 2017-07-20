@@ -1,0 +1,270 @@
+@font-face
+{
+    font-family:'neo_sansregular';
+    src: url('../fonts/neo_sans-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansbold';
+    src: url('../fonts/neo_sans_bold-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansmedium';
+    src: url('../fonts/neo_sans_medium-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ======== Geral ======== */
+
+    body
+    {
+        background-color: #EAEAEA;
+        font-size: 10px;
+        font-family: 'neo_sansregular', Verdana, Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body *
+    {
+        text-shadow: none;
+        font-weight: normal !important;
+    }
+
+    a
+    {
+        outline: none;
+        text-decoration: none;
+    }
+
+    h2
+    {
+        color: #A4AB37;
+        font-family: 'neo_sansmedium', Verdana, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 4em;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        padding: 1.5em 0;
+        margin: 0;
+    }
+
+    h4
+    {
+        color: #707171;
+        font-family: 'neo_sansbold', Verdana, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        padding: 1.5em 0;
+        margin: 0;
+    }
+
+    img
+    {
+        max-width: 100%;
+    }
+
+    .navs
+    {
+        list-style: none;
+        margin: 0;
+        padding: 2em 0;
+    }
+
+    .navs li
+    {
+        display: inline-block;
+        margin: 0 2em;
+    }
+
+
+
+/* Footer */
+
+#footer-ie
+{
+    background: transparent;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 4em 0;
+}
+
+#footer-ie p
+{
+    color: #6D6E71;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+#footer-ie img
+{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#footer-ie a
+{
+    color: #A5AC37;
+    font-size: 1.3em;
+    line-height: 1.2em; 
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;        
+}
+
+#footer-ie a:hover,
+#footer-ie a:focus
+{
+    color: #6D6E71;
+}
+
+.info-spc
+{
+    padding: 2em 0 0;
+}
+
+#redesSociais
+{
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#redesSociais li
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#redesSociais li:last-child
+{
+    margin-right: 0;
+}
+
+#redesSociais li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#redesSociais li a span
+{
+    color: #58595B;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 7px 0;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;   
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;         
+}
+
+#redesSociais li a:hover span
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;     
+}
+
+#redesSociais li.face-icon a:hover span
+{
+    color: #3B5998;
+}
+
+#redesSociais li.linkedin-icon a:hover span
+{
+    color: #0177B5;
+}
+
+#redesSociais li.twitter-icon a:hover span
+{
+    color: #5FA9DD;
+}
+
+#redesSociais li.googleplus-icon a:hover span
+{
+    color: #DB4E41;
+}
+
+#redesSociais li.instagram-icon a:hover span
+{
+    color: #3F729B;
+}
+
+/* Media Queries */
+
+    @media screen and (max-width: 767px)
+    {
+        #footer-principal p,
+        #footer-principal a
+        {
+            font-size: 1.2em;
+        }
+    }   
+
+@media screen and (max-width: 959px)
+{
+
+    h2
+    {
+        font-size: 3em;
+    }
+
+    h4
+    {
+        font-size: 1.8em;
+    }
+
+    .navs li img
+    {
+        width: 30px;
+    }
+
+}
+
+@media screen and (max-width: 959px)
+{
+
+    h2
+    {
+        font-size: 2.5em;
+    }
+
+    h4
+    {
+        font-size: 1.5em;
+    }
+
+}    

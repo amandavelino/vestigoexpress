@@ -1,0 +1,137 @@
+	/* Planos Geral */
+
+		#lista-produtos-plano
+		{
+			background: #EBEBEA;
+			position: relative;
+		}
+
+		/* Imagens bg Produtos Plano */
+
+			#lista-produtos-plano .note
+			{
+				display: block;
+				position: absolute;
+				right: 1%;
+				top: 35%;
+				z-index: 0;
+			}
+
+			#lista-produtos-plano .mobiles
+			{
+				display: block;
+				position: absolute;
+				left: -3%;
+				top: 30%;
+				z-index: 0;
+			}	
+
+			#lista-produtos-plano .marca
+			{
+				display: block;
+				position: absolute;
+				left: 1%;
+				bottom: 10%;
+				z-index: 0;
+			}				
+
+		#lista-produtos-plano .container
+		{
+			z-index: 10;
+			position: relative;
+		}
+
+		#lista-produtos-plano h3
+		{
+			color: #A5AC37;
+		}
+
+		#lista-produtos-plano .header-sessao
+		{
+			margin: 2em 0 3em;
+		}
+
+		/* Servicos Plano Internas */
+
+			.servicos-planos ul
+			{
+				list-style: none;
+				padding: 2em 0;
+				overflow: hidden;
+			}
+
+			.servicos-planos ul li
+			{
+				overflow: hidden;
+				position: relative;
+			}
+
+			.servicos-planos ul li div.bdr
+			{
+				background: #DFDEDC;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 95%;
+				height: 1px;
+				margin: 0 15px;
+			}
+
+			.servicos-planos ul li div
+			{
+				height: 100%;
+			}
+
+			.servicos-planos ul li p
+			{
+				padding-bottom: 1em;
+			}
+
+			.servicos-planos .header-lista-produto-plano
+			{
+				border-bottom: 1px solid #DFDEDC;
+				margin-bottom: 1em;
+			}
+
+			.servicos-planos .header-lista-produto-plano h4
+			{
+				color: #717171;
+				font-family:'neo_sansregular';
+				font-size: 1.4em;
+			}
+
+			.servicos-planos ul p
+			{
+				font-size: 1.4em;
+			}
+
+	/* Media Queries */
+
+		@media screen and (min-width: 1400px)
+		{
+
+			#lista-produtos-plano .note
+			{
+				right: 13%;
+			}
+
+			#lista-produtos-plano .mobiles
+			{
+				left: 8%;
+			}	
+
+			#lista-produtos-plano .marca
+			{
+				left: 8%;
+			}			
+
+		}	
+
+		@media screen and (max-width: 767px)
+		{}	
+
+		@media screen and (max-width: 479px)
+		{}	
+
+		@media screen and (max-width: 319px)
+		{}							

@@ -1,0 +1,44 @@
+@font-face
+{
+    font-family:'neo_sansregular';
+    src: url('../fonts/neo_sans-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansbold';
+    src: url('../fonts/neo_sans_bold-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansmedium';
+    src: url('../fonts/neo_sans_medium-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansbold_italic';
+    src: url('../fonts/neo_sans_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family:'neo_sansitalic';
+    src: url('../fonts/neo_sans_italic-webfont.woff2') format('woff2'),
+         url('../fonts/neo_sans_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

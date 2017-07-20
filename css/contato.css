@@ -1,0 +1,59 @@
+#contato
+{
+	background: #EBEBEA;
+	padding-bottom: 4em;
+}
+
+#contato h3
+{
+	color: #717171;
+}
+
+#contato .input-submit
+{
+	float: right;
+}
+
+#contato label
+{
+	margin-bottom: 1.5em;
+}
+
+#contato form
+{
+    padding: 0 0 3em;
+    margin: 0 auto;
+    width: 700px;
+    max-width: 100%;
+}
+
+#contato .input-default
+{
+	background: #fff;
+}
+
+.valida-box
+{
+	height: 5em;
+	position: relative;
+	width: 700px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#contato label.validacao
+{
+	margin: 0;
+}
+
+/* Media Queries */
+
+	@media screen and (max-width: 767px)
+	{	
+
+	}	
+
+	@media screen and (max-width: 479px)
+	{
+
+	}		

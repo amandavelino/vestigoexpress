@@ -1,0 +1,96 @@
+/* Header Principal */
+
+	#header-principal .navbar-default
+	{
+	    background-color: #fff;
+	    border-color: transparent;
+	}
+
+	#header-principal .navbar-brand
+	{
+		height: auto;
+	}
+
+/* Menu */
+
+	.navbar-default .navbar-nav > li > a
+	{
+		color: #717171;
+		font-size: 1.2em;
+		line-height: 1em;
+		margin: 1.5em 0;
+		text-transform: uppercase;
+
+		-webkit-transition: color .5s ease-in-out;
+	    -moz-transition: color .5s ease-in-out;
+	    -o-transition: color .5s ease-in-out;
+	    transition: color .5s ease-in-out;		
+	}
+
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a.link-ativo
+	{
+		color: #A5AC37;
+	}
+
+	.navbar-default .navbar-nav > li > a.link-destaque,
+	.navbar-default .navbar-nav > li > a.link-destaque:hover,
+	.navbar-default .navbar-nav > li > a.link-destaque:focus
+	{
+		background: #A5AC37;
+		border-radius: 3px;
+		color: #fff;
+		display: block;
+		padding: 1em .8em;
+		margin: 1.7em 1em;
+	}
+
+/* Menu Mobile */
+
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form
+	{
+		border-color: transparent;
+	}
+
+	.navbar-toggle
+	{
+	    margin: 2.5em 1.5em;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 0 none;
+	    border-radius: 0;
+	}
+
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover {
+	    background-color: transparent;
+	}	
+
+	.navbar-default .navbar-toggle .icon-bar
+	{
+    	background-color: #a7ad37;
+	}
+
+
+/* Media Queries */
+
+	@media screen and (max-width: 767px)
+	{
+
+		/* .navbar-default .navbar-nav > li > a.link-ativo, */
+
+		.navbar-default .navbar-nav > li > a,
+		.navbar-default .navbar-nav > li > a:focus,
+		.navbar-default .navbar-nav > li > a:hover,	
+		.navbar-default .navbar-nav > li > a.link-destaque,
+		.navbar-default .navbar-nav > li > a.link-destaque:hover,
+		.navbar-default .navbar-nav > li > a.link-destaque:focus
+		{
+			background: transparent;
+			color: #717171;
+			padding: 1em;
+			margin: 0;
+		}
+	}

@@ -1,0 +1,244 @@
+/* Pagamento */
+
+	#pagamento-plano
+	{
+		background: #A5AC37;
+		position: relative;
+		padding: 0 0 8em 0;
+		overflow: hidden;
+	}
+
+	#pagamento-plano .container
+	{
+		position: relative;
+		z-index: 10;
+	}
+
+	#pagamento-plano h5
+	{
+		color: #bbbd65;
+		font-family: 'neo_sansmedium';
+		font-size: 20em;
+		line-height: .5em;
+		text-transform: lowercase;
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+		margin: 0;
+		z-index: -1;
+	}
+
+	#pagamento-plano .header-sessao
+	{
+		margin: 2em 0 3em;
+	}
+
+	#pagamento-plano h3
+	{
+		color: #fff;
+	}
+
+	#pagamento-plano .header-sessao h3:before
+	{
+		background: #c9c98e;
+	}
+
+	#pagamento-plano h2
+	{
+		font-size: 2.4em;
+		padding-bottom: .5em;
+		color: #fff;
+	}
+
+	#pagamento-plano p
+	{
+		color: #f1f1f1;
+	}
+
+	#pagamento-plano img
+	{
+		max-width: 100%;
+	}
+
+	#pagamento-plano .plano-custo span
+	{
+		color: #fff;
+	}
+	
+	#pagamento-plano .plano-custo h2
+	{
+		border-bottom: 1px solid #EEEEEE;
+	}
+
+	#pagamento-plano .info-plan-txt
+	{
+		margin: 1em 0;
+	}
+
+	#pagamento-plano .info-plan-txt:last-child
+	{
+		border-bottom: 0 none;
+	}
+
+	#pagamento-plano .info-plan-txt a
+	{
+	    margin: 0 auto;
+	    clear: both;
+	}
+
+	#pagamento-plano .info-plan-txt a em
+	{
+		font-family:'neo_sansbold_italic';
+	}
+
+	#pagamento-plano .info-plan p
+	{
+		padding: .5em 0 1.5em;
+		margin: 0;
+	}
+
+	#pagamento-plano .btn-saiba-mais-planos
+	{
+	    background: #C5C4C3;
+	    color: #717171;
+	    font-size: 1.2em;
+	    line-height: 1em;
+	    padding: .6em 1em;
+	    width: 90%;
+	    display: block;
+	    margin: 0 auto;
+	    text-transform: none;
+
+	    -webkit-border-bottom-left-radius: 0;
+	    -moz-border-bottom-left-radius: 0;
+	    border-bottom-left-radius: 0;
+	    -webkit-border-bottom-right-radius: 0;
+	    -moz-border-bottom-right-radius: 0;
+	    border-bottom-right-radius: 0;
+	}
+
+	#pagamento-plano .btn-saiba-mais-planos .etc
+	{
+	    color: #717171;
+	}
+
+	#pagamento-plano .btn-saiba-mais-planos:hover,
+	#pagamento-plano .btn-saiba-mais-planos:focus
+	{
+		background: #8B8B8A;
+		color: #fff;
+	}
+
+	#pagamento-plano .btn-saiba-mais-planos:hover .etc,
+	#pagamento-plano .btn-saiba-mais-planos:focus .etc
+	{
+	    color: #fff;
+	}		
+
+	.info-plan-txt label
+	{
+		color: #fff;
+		display: block;
+		font-size: 1.3em;
+		line-height: 1.6em;
+		text-align: left;
+		float: left;
+		margin: 1.3em 0 1.5em;
+		position: relative;
+	}
+
+	.info-plan-txt label a
+	{
+		color: #e3e67d;
+
+		-webkit-transition: all .5s ease-in-out;
+	    -moz-transition: all .5s ease-in-out;
+	    -o-transition: all .5s ease-in-out;
+	    transition: all .5s ease-in-out;	
+	}
+
+	.info-plan-txt label a:focus,
+	.info-plan-txt label a:hover
+	{
+		color: #C8C845;
+	}
+
+	.info-plan-txt label input
+	{
+		float: left;
+		margin-right: .5em;
+	}
+
+	.btn-pagseguro
+	{
+		border-bottom: 2px solid #0E6E72;
+	}
+
+	.btn-pagseguro:hover,
+	.btn-pagseguro:focus
+	{
+		background: #858C21;
+		border-bottom: 2px solid #737A1D;	
+		color: #fff;		
+	}	
+
+/* Media Queries */
+
+	@media screen and (max-width: 1199px)
+	{
+
+		#pagamento-plano h5
+		{
+		    font-size: 14em;
+		    bottom: -60px;
+		}
+
+		#confirmacao-plano h3
+		{
+			font-size: 1.3em;
+		}		
+
+	}	
+
+	@media screen and (max-width: 767px)
+	{
+		#pagamento-plano .col-xs-12
+		{
+			width: 50%;
+		}
+	}	
+
+	@media screen and (max-width: 580px)
+	{
+
+		#pagamento-plano
+		{
+			padding-bottom: 15em;
+		}
+
+		#pagamento-plano .col-xs-12
+		{
+			width: 100%;
+		}		
+
+		#pagamento-plano h5
+		{
+			font-size: 14em;
+			bottom: -120px;
+		}
+	}	
+
+	@media screen and (max-width: 479px)
+	{
+
+		#pagamento-plano
+		{
+			padding-bottom: 13em;
+		}
+
+		#pagamento-plano h5
+		{
+			font-size: 8em;
+			bottom: -116px;
+		}
+	}								
